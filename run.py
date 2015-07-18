@@ -6,10 +6,10 @@ import os
 #config
 
 DATABASE = './golinks.db'
-DEBUG = True # change to True if want debug features (and open remote code execution vulnerability so don't turn this on lightly!)
-SECRET_KEY = '9e77e606ce7c19b96df8115f0ce8a3457c486859'
+DEBUG = False # change to True if want debug features (and open remote code execution vulnerability so don't turn this on lightly!)
+SECRET_KEY = 'SUPER_SECRET_KEY'
 USERNAME = 'admin'
-PASSWORD = '142ddf00ac7189b8daf2d20100e96233ca3cf4be'
+PASSWORD = 'SUPER_SECRET_PASSWORD'
 
 #app
 app = Flask(__name__)
